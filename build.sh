@@ -13,7 +13,7 @@ cd ~/wol/Ableton_Live_11_Lite/drive_c
 #echo "Downloading Ableton Live 11 Lite, this depends on your internet connection speed, Please wait..."
 #wget https://cdn-downloads.ableton.com/channels/11.1.5/ableton_live_lite_11.1.5_64.zip -O ~/wol/Ableton_Live_11_Lite/drive_c/ableton.zip
 echo "Coping Ableton Live 11 Lite, Please wait..."
-cp /mnt/Data/Downloads/Audio Studio/DAWs/ableton_live_lite_11.1.6_64.zip ~/wol/Ableton_Live_11_Lite/drive_c/ableton.zip
+cp /mnt/Data/Downloads/Audio\ Studio/DAWs/ableton_live_lite_11.1.6_64.zip ~/wol/Ableton_Live_11_Lite/drive_c/ableton.zip
 mkdir ~/wol/Ableton_Live_11_Lite/drive_c/ableton11_installer
 echo "Unzipping Ableton Live 11 Lite..."
 unzip ~/wol/Ableton_Live_11_Lite/drive_c/ableton.zip -d ~/wol/Ableton_Live_11_Lite/drive_c/ableton11_installer
