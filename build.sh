@@ -1,7 +1,7 @@
 dirname=Ableton_Live_11_Lite
 desktop=$(xdg-user-dir DESKTOP)
 echo "Preparing the folder..."
-mkdir ~/wol/Ableton_Live_11_Lite
+mkdir -p ~/wol/Ableton_Live_11_Lite
 echo "Installing all dependencies for Ableton Live 11 Lite and preparing all enviroments, Please wait..."
 WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Lite winetricks d3dx9 dotnet35 dotnet452 dxvk gdiplusvcrun2019 corefonts tahoma vcrun6sp6
 WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Lite winetricks win10
