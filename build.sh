@@ -5,7 +5,7 @@ mkdir -p ~/wol/Ableton_Live_11_Lite
 echo "Installing all dependencies for Ableton Live 11 Lite and preparing all enviroments, Please wait..."
 WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Lite winetricks d3dx9 dotnet35 dotnet452 dxvk gdiplusvcrun2019 corefonts tahoma vcrun6sp6
 WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Lite winetricks win10
-echo "Creating shortcut on your desktop, please don't open it until the installer finish its work"
+echo "Creating shortcut on applications, please don't open it until the installer finish its work"
 cp startup.sh ~/wol/Ableton_Live_11_Lite
 cp icon.png ~/wol/Ableton_Live_11_Lite
 cp ableton.desktop ~/.local/share/applications
